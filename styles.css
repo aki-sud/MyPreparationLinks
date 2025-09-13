@@ -1,27 +1,29 @@
-table, th, td {
+table,
+th,
+td {
     font-size: 10px;
 }
 
 a:link {
-  color: inherit;
-  background-color: transparent;
-  text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:visited {
-  color: inherit;
-  background-color: transparent;
-  text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:hover {
-  color: inherit;
-  background-color: transparent;
-  text-decoration: underline;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 a:active {
-  color: inherit;
-  background-color: transparent;
-  text-decoration: underline;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: underline;
 }
