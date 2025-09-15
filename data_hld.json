@@ -1,0 +1,222 @@
+{
+  "article_sites": [
+    {
+      "name": "Quastor Blog",
+      "link": "https://blog.quastor.org/",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "ByteByteGo Questions",
+      "link": "https://bytebytego.com/courses/system-design-interview/",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Back-2-Basecs series",
+      "link": "https://medium.com/back-2-basecs",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "45 curated system design questions",
+      "link": "https://medium.com/%40systemdesignio/45-curated-system-design-questions-and-solutions-i-practiced-to-crack-faang-interviews-1bbe5908d689",
+      "description": "",
+      "done": false
+    }
+  ],
+  "questions": [
+    {
+      "name": "TinyURL + PasteBin",
+      "link": [{"link":"https://www.youtube.com/watch?v=5V6Lam8GZo4&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=1","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Instagram + Twitter + Facebook + Reddit",
+      "link": [{"link":"https://www.youtube.com/watch?v=S2y9_XYOZsg&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=2","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Dropbox + Google Drive",
+      "link": [{"link":"https://www.youtube.com/watch?v=4wIU4rTV-JU&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=3","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Facebook Messenger + WhatsApp",
+      "link": [{"link":"https://www.youtube.com/watch?v=-3Ge8EooS3g&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=4","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Netflix + YouTube",
+      "link": [{"link":"https://www.youtube.com/watch?v=43bB7oSn190&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=5","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Typeahead Suggestion + Google Search Bar",
+      "link": [{"link":"https://www.youtube.com/watch?v=MCKX3n4-UR4&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=6","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design a Rate Limiter",
+      "link": [{"link":"https://www.youtube.com/watch?v=VzW41m4USGs&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=8","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design a Web Crawler",
+      "link": [{"link":"https://www.youtube.com/watch?v=MdWvMX4J-Vc&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=9","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design Yelp/Google Places",
+      "link": [{"link":"https://www.youtube.com/watch?v=mMSJO4SrQLI&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=10","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design Uber/Lyft",
+      "link": [{"link":"https://www.youtube.com/watch?v=giwa8Hc0niY&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=11","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design TicketMaster/StubHub",
+      "link": [{"link":"https://www.youtube.com/watch?v=sMgxHf9AU_U&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=12","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design Google Docs/Real Time Text Editor",
+      "link": [{"link":"https://www.youtube.com/watch?v=YCjVIDv0zQY&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=13","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Google Maps",
+      "link": [{"link":"https://www.youtube.com/watch?v=1pmcoh4hc_A&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=14","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Distributed Logging & Metrics Framework",
+      "link": [{"link":"https://www.youtube.com/watch?v=p_q-n09B8KA&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=15","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Reddit Comments",
+      "link": [{"link":"https://www.youtube.com/watch?v=BO2gRisnBcA&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=16","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Amazon/Flipkart",
+      "link": [{"link":"https://www.youtube.com/watch?v=F9lcK1jnAcs&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=17","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Top K Leaderboard",
+      "link": [{"link":"https://www.youtube.com/watch?v=nQpkRONzEQI&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=18","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Count Unique Active Users",
+      "link": [{"link":"https://www.youtube.com/watch?v=X83DFlt15Xw&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=19","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Notification Service",
+      "link": [{"link":"https://www.youtube.com/watch?v=J-5JozlYIqI&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=20","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Distributed Job Scheduler",
+      "link": [{"link":"https://www.youtube.com/watch?v=pzDwYHRzEnk&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=21","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Distributed Locking",
+      "link": [{"link":"https://www.youtube.com/watch?v=Lp8oITg0MiI&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=22","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design Tinder",
+      "link": [{"link":"https://youtu.be/PI0yGBT9LHo?si=YcDLIcRIktLAutwa","info":"Jordan"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design a Key-Value Store",
+      "link": "",
+      "description": "Q3 (45 Qs List)",
+      "done": false
+    },
+    {
+      "name": "Design High Availablity System",
+      "link": "",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "",
+      "link": "",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "",
+      "link": "",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design Kafka",
+      "link": "",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design a Local Delivery Service like Gopuff/Swiggy/Dunzo",
+      "link": "",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design Spotify",
+      "link": "",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design a News Aggregator like Google News",
+      "link": [{"link":"https://www.hellointerview.com/learn/system-design/problem-breakdowns/google-news","info":"hellointerview"}],
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design a Fitness Tracking App Strava",
+      "link": "",
+      "description": "",
+      "done": false
+    },
+    {
+      "name": "Design Online Chess",
+      "link": "https://medium.com/back-2-basecs/system-design-series-online-chess-341d76fd64f4",
+      "description": "",
+      "done": false
+    }
+  ]
+}

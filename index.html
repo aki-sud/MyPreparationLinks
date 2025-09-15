@@ -12,123 +12,538 @@
 
 <body class="bg-dark text-light">
 
-    <div class="container mt-5">
-        <h2 class="mb-4"><u>Preparation Links</u></h2>
+    <div class="container-fluid mt-5">
+               <button id="sidebarToggle" class="btn btn-light mb-3">&#9776;</button>
+        <div class="d-flex">
+            <!-- Sidebar -->
+            <nav id="sidebar" class="bg-dark text-white p-3">
+                <ol>
+                    <li><a href="#Section_DSA">DSA</a></li>
+                    <li><a href="#Section_HLD">HLD</a></li>
+                    <li><a href="#Section_LLD">LLD</a></li>
+                    <li><a href="#Section_Languages">Languages</a></li>
+                    <li><a href="#Section_Subjects">Subjects</a></li>
+                    <li><a href="#Section_Projects">Projects</a></li>
+                </ol>
+                <ol>
+                    <li><a href="#Section_Interview_Experiences">Interview Experiences</a></li>
+                </ol>
+            </nav>
+            <!-- </div> -->
+            <div id="mainContent" class="flex-grow-1 p-3">
+                <!-- Section DSA -->
+                <h2 class="mb-4"><u>Preparation Links/Resources</u></h2>
+                <hr class="border border-w">
+                <h5 id="Section_DSA" class="mb-4"><u>DSA</u></h5>
 
-        <ol>
-            <li><a href="#Section_DSA">DSA</a></li>
-            <li><a href="#Section_HLD">HLD</a></li>
-            <li><a href="#Section_LLD">LLD</a></li>
-            <li><a href="#Section_Languages">Languages</a></li>
-            <li><a href="#Section_Subjects">Subjects</a></li>
-            <li><a href="#Section_Projects">Projects</a></li>
-        </ol>
-        <ol>
-            <li><a href="#Section_Interview_Experiences">Interview Experiences</a></li>
-        </ol>
+                <h6 id="Section_DSA_Arrays" class="mb-4 numbered-headings"><u>Arrays</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="dsa-arrays-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
 
-        <!-- Section DSA -->
-        <hr class="border border-w">
-        <h5 id="Section_DSA" class="mb-4"><u>DSA</u></h5>
-        <div class="table-responsive">
-            <table class="table table-dark table-striped table-bordered">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Name</th>
-                        <th>#</th>
-                        <th>Link</th>
-                        <th>Description</th>
-                        <th>Done</th>
-                    </tr>
-                </thead>
-            </table>
+                <h6 id="Section_DSA_Matrix" class="mb-4 numbered-headings"><u>Matrix</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="dsa-matrix-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Binary_Search" class="mb-4 numbered-headings"><u>Binary Search</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-binary-search-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Linked_List" class="mb-4 numbered-headings"><u>Linked List</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-linked-list-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Binary_Trees" class="mb-4 numbered-headings"><u>Binary Trees</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-binary-trees-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Binary_Search_Trees" class="mb-4 numbered-headings"><u>Binary Search Trees</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-binary-search-trees-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Greedy" class="mb-4 numbered-headings"><u>Greedy</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="dsa-greedy-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Stack&Queue" class="mb-4 numbered-headings"><u>Stack & Queue</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-stack-&-queue-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Sliding_Window_&_2Pointer" class="mb-4 numbered-headings"><u>Sliding Window & 2
+                        Pointer</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-sliding window-&-2-pointer-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Heap" class="mb-4 numbered-headings"><u>Heap</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="dsa-heap-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Bit_Manipulation" class="mb-4 numbered-headings"><u>Bit Manipulation</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-bit-manipulation-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Backtracking" class="mb-4 numbered-headings"><u>Backtracking</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-backtracking-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Graph" class="mb-4 numbered-headings"><u>Graph</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="dsa-graph-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Dynamic_Programming" class="mb-4 numbered-headings"><u>Dynamic Programming</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="dsa-dynamic-programming-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Trie" class="mb-4 numbered-headings"><u>Trie</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="dsa-trie-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <h6 id="Section_DSA_Geometry" class="mb-4 numbered-headings"><u>Geometry</u></h6>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="dsa-geometry-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Section HLD -->
+                <hr class="border border-w">
+                <h5 id="Section_HLD" class="mb-4"><u>HLD</u></h5>
+                <p>System Design Resources</p>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="hld-articles-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Link</th>
+                                <th>Notes</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+
+                    <p>System Design Questions</p>
+                    <div class="table-responsive">
+                        <table class="table table-dark table-striped table-bordered reset-counter"
+                            id="hld-questions-table">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Link</th>
+                                    <th>Notes</th>
+                                    <th>Done</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Rows will be populated by script.js -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p>System Design Theory</p>
+                    <div class="table-responsive">
+                        <table class="table table-dark table-striped table-bordered reset-counter"
+                            id="hld-questions-table">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Link</th>
+                                    <th>Description</th>
+                                    <th>Done</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Rows will be populated by script.js -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Section LLD -->
+                    <hr class="border border-w">
+                    <h5 id="Section_LLD" class="mb-4"><u>LLD</u></h5>
+                    <div class="table-responsive">
+                        <table class="table table-dark table-striped table-bordered reset-counter" id="lld-table">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>#</th>
+                                    <th>Link</th>
+                                    <th>Description</th>
+                                    <th>Done</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Rows will be populated by script.js -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Section Languages -->
+                    <hr class="border border-w">
+                    <h5 id="Section_Languages" class="mb-4"><u>Languages</u></h5>
+                    <p>Languages Resources</p>
+                    <div class="table-responsive">
+                        <table class="table table-dark table-striped table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>#</th>
+                                    <th>Link</th>
+                                    <th>Description</th>
+                                    <th>Done</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="1" class="align-middle">C++</td>
+                                    <td>1</td>
+                                    <td><a href="" target="_blank" rel="noopener noreferrer"></a></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="align-middle">Go</td>
+                                    <td>1</td>
+                                    <td><a href="https://gobyexample.com/" target="_blank"
+                                            rel="noopener noreferrer">gobyexample.com</a></td>
+                                    <td>To learn Go by examples</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><a href="" target="" rel="noopener noreferrer"></a></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" class="align-middle">Python</td>
+                                    <td>1</td>
+                                    <td><a href="https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"
+                                            target="_blank" rel="noopener noreferrer">Python Tutorials by Corey
+                                            Schafer</a></td>
+                                    <td>Youtube Playlist</td>
+                                    <td>No</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Section Subjects OS -->
+                <hr class="border border-w">
+                <h5 id="Section_Subjects" class="mb-4"><u>Subjects</u></h5>
+                <p>OS</p>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="subjects-os-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>#</th>
+                                <th>Link</th>
+                                <th>Description</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+                <p>DBMS</p>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="subjects-dbms-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>#</th>
+                                <th>Link</th>
+                                <th>Description</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+                <p>Networking</p>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter"
+                        id="subjects-networking-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>#</th>
+                                <th>Link</th>
+                                <th>Description</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Section HM Projects -->
+                <hr class="border border-w">
+                <h5 id="Section_HM_Projects" class="mb-4"><u>Hiring Manager/Projects</u></h5>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-bordered reset-counter" id="hm-projects-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>#</th>
+                                <th>Link</th>
+                                <th>Description</th>
+                                <th>Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by script.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
-        <!-- Section HLD -->
-        <hr class="border border-w">
-        <h5 id="Section_HLD" class="mb-4"><u>HLD</u></h5>
-        <div class="table-responsive">
-            <table class="table table-dark table-striped table-bordered">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Name</th>
-                        <th>#</th>
-                        <th>Link</th>
-                        <th>Description</th>
-                        <th>Done</th>
-                    </tr>
-                </thead>
-            </table>
-        </div>
-
-        <!-- Section LLD -->
-        <hr class="border border-w">
-        <h5 id="Section_LLD" class="mb-4"><u>LLD</u></h5>
-        <div class="table-responsive">
-            <table class="table table-dark table-striped table-bordered">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Name</th>
-                        <th>#</th>
-                        <th>Link</th>
-                        <th>Description</th>
-                        <th>Done</th>
-                    </tr>
-                </thead>
-            </table>
-        </div>
-
-        <!-- Section Languages -->
-        <hr class="border border-w">
-        <h5 id="Section_Languages" class="mb-4"><u>Languages</u></h5>
-        <div class="table-responsive">
-            <table class="table table-dark table-striped table-bordered">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Name</th>
-                        <th>#</th>
-                        <th>Link</th>
-                        <th>Description</th>
-                        <th>Done</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="1" class="align-middle">C++</td>
-                        <td>1</td>
-                        <td><a href="" target="_blank" rel="noopener noreferrer"></a></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2" class="align-middle">Go</td>
-                        <td>1</td>
-                        <td><a href="https://gobyexample.com/" target="_blank"
-                                rel="noopener noreferrer">gobyexample.com</a></td>
-                        <td>To learn Go by examples</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><a href="" target="" rel="noopener noreferrer"></a></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="1" class="align-middle">Python</td>
-                        <td>1</td>
-                        <td><a href="https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"
-                                target="_blank" rel="noopener noreferrer">Python Tutorials by Corey Schafer</a></td>
-                        <td>Youtube Playlist</td>
-                        <td>No</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

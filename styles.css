@@ -1,7 +1,21 @@
 table,
 th,
 td {
-    font-size: 10px;
+    font-size: 14px;
+}
+
+table .reset-counter{
+    counter-reset: rowNumber 0; /* Initialize counter 'rowNumber' to 0. The next increment will make it 1. */
+}
+
+/* Increment the counter for each table row */
+table tr.increment-first-counter{
+    counter-increment: rowNumber;
+}
+
+/* Display the counter value in the first cell of each row */
+table tr.increment-first-counter td:first-child::before{
+    content: counter(rowNumber);
 }
 
 a:link {
@@ -26,4 +40,99 @@ a:active {
     color: inherit;
     background-color: transparent;
     text-decoration: underline;
+}
+
+.numbered-headings {
+  counter-reset: section;
+}
+
+.numbered-headings h6::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  font-weight: bold;
+}
+
+
+/* Optional: add this for smooth transition */
+#sidebar {
+  transition: all 0.3s ease;
+}
+
+/* On smaller screens, start hidden */
+/* @media (max-width: 768px) {
+  #sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1050;
+    width: 250px;
+  }
+  #sidebar.show {
+    display: block;
+  }
+} */
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  overflow-y: auto;
+}
+#mainContent {
+  margin-left: 250px; /* leave space for fixed sidebar */
+  padding: 20px;
+  transition: margin-left 0.3s;
+}
+
+#sidebar.collapsed + #mainContent {
+  margin-left: 0;
+}
+
+/* Collapsed state on large screens */
+#sidebar.collapsed {
+  width: 0;
+  padding: 0;
+  border: none !important;
+  overflow: hidden !important;
+  visibility: hidden; /* hide from view */
+}
+
+#mainContent.collapsed {
+  margin-left: 0;
+}
+
+#sidebar.show {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    display: none; /* hide by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #212529;
+    z-index: 1050;
+  }
+
+  #sidebar.show {
+    display: block;
+  }
+
+  #mainContent {
+    margin-left: 0 !important; /* no margin for mobile */
+  }
+}
+
+#sidebarToggle {
+  position: fixed;
+  top: 15px;
+  right: 15px; /* instead of left */
+  z-index: 1100;
 }

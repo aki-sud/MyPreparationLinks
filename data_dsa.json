@@ -1,0 +1,40 @@
+{
+    "geometry": [
+        {
+            "name": "Minimum Area Rectangle",
+            "link": "https://leetcode.com/problems/minimum-area-rectangle/",
+            "description": "",
+            "done": false
+        },
+        {
+            "name": "Minimum Area Rectangle II",
+            "link": "https://leetcode.com/problems/minimum-area-rectangle-ii/solutions/3300670/easy-to-understand-c-solution/",
+            "description": "",
+            "done": false
+        },
+        {
+            "name": "Max Points on a Line",
+            "link": "https://leetcode.com/problems/max-points-on-a-line/",
+            "description": "",
+            "done": false
+        },
+        {
+            "name": "Rectangle Overlap",
+            "link": "https://leetcode.com/problems/rectangle-overlap/",
+            "description": "",
+            "done": false
+        },
+        {
+            "name": "Valid Square",
+            "link": "https://leetcode.com/problems/valid-square/",
+            "description": "",
+            "done": false
+        },
+        {
+            "name": "Detect Squares",
+            "link": "https://leetcode.com/problems/detect-squares/",
+            "description": "",
+            "done": false
+        }
+    ]
+}
